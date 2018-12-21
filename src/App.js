@@ -4,7 +4,7 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Item from "./components/Item";
-// import Items from "./components/Items";
+import Items from "./components/Items";
 // import AddItem from "./components/AddItem";
 
 class App extends Component {
@@ -68,6 +68,7 @@ class App extends Component {
           <NavBar />
           <Route exact path="/" component={Home} />
           <Route path="/About" component={About} />
+          <Route path="/Items" component={Items} />
           <Route path="/:item_id" component={Item} />
         </div>
       </BrowserRouter>

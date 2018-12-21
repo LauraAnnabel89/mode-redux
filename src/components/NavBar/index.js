@@ -14,7 +14,7 @@ const NavBar = props => {
             <NavLink to="/additem">Add Item</NavLink>
           </li>
           <li>
-            <NavLink to="/items">Items</NavLink>
+            <NavLink to="/Items">Items</NavLink>
           </li>
           <li>
             <NavLink to="/about">About</NavLink>
